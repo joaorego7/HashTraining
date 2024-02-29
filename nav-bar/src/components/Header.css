@@ -1,0 +1,34 @@
+.container-header {
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    
+  }
+  
+  .container-header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-header .logo {
+    width: 200px;
+    margin-left: 5px;
+  }
+  
+  .container-header .hamburger-menu {
+    margin-right: 16px;
+  }
+  
+  .container-header .rx-hamburger-menu {
+    color: white;
+    font-size: 32px;
+  }
+  
+  .content {
+    padding-top: 60px;
+  }
+  
